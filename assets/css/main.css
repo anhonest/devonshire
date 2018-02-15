@@ -2630,7 +2630,7 @@
 		}
 
 		dl dd {
-			margin-left: 2em;
+			margin-left: 0em; /* 2em; */
 		}
 
 		dl.alt dt {
@@ -2642,7 +2642,7 @@
 		}
 
 		dl.alt dd {
-			margin: 0 0 0.85em 5.5em;
+			margin: 0 0 0 0; /*0 0 0.85em 5.5em;*/
 		}
 
 		dl.alt:after {
@@ -3706,20 +3706,28 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
-		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		padding: 3em 5em 3em 5em ;
+		width: calc(100%); /*+ 2em);*/
+		margin: auto; /*  0 0 3em -2em */
+		text-align: center;
 	}
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			margin/*-left*/: auto; /* 2em; */
 		}
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
+			margin: auto; /*2.5em 0 2em 0*/
+			padding: 1em 0 0 0;
 			font-size: 0.8em;
+			text-align: center;
+		}
+		#footer .alt {
+			width: 100%;
+			margin: auto; /*2.5em 0 2em 0*/
+			font-size: 0.9em;
 			text-align: center;
 		}
 
@@ -3736,7 +3744,7 @@
 			#footer {
 				padding: 4em 3em 2em 3em ;
 				display: block;
-				margin: 0 0 3em 0;
+				margin: auto; /* 0 0 3em 0; */
 				width: 100%;
 			}
 
@@ -3747,7 +3755,7 @@
 				}
 
 				#footer .copyright {
-					text-align: left;
+					text-align: center;
 				}
 
 		}
