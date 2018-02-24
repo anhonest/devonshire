@@ -1642,6 +1642,9 @@
 		}
 
 /* Type */
+	.guarantee {
+    	font-size: .8em;
+	}
 
 	body {
 		background-color: #935d8c;
