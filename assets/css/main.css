@@ -3148,7 +3148,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 4em 0.1em 4em ;
+				padding: 5em 4em 0.1em 4em ; /*4*/
 			}
 
 				#header.alt {
@@ -3160,7 +3160,7 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 4em 3em 0.1em 3em ;
+				padding: 5em 3em 0.1em 3em ; /*4*/
 			}
 
 				#header.alt {
@@ -3172,7 +3172,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 3em 2em 0.1em 2em ;
+				padding: 4em 2em 0.1em 2em ; /*3*/
 			}
 
 				#header p {
@@ -3197,7 +3197,7 @@
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
+				padding: 4em 1.5em 0.1em 1.5em ; /*3*/
 			}
 
 				#header.alt {
@@ -3209,7 +3209,7 @@
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 3em 1em 0.1em 1em ; /*2.5*/
 			}
 
 				#header.alt {
